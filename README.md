@@ -68,10 +68,10 @@ Generadas automáticamente al final del pipeline con Seaborn y Matplotlib.
 ### Pasos
 
 1. Clonar el repositorio:
-```bash
-    git clone https://github.com/tu-usuario/etl_polars_titanic.git
-    cd etl_polars_titanic
-```
+    ```bash
+        git clone https://github.com/tu-usuario/etl_polars_titanic.git
+        cd etl_polars_titanic
+    ```
 2. Crear entorno virtual (opcional):
 ```bash    
     python -m venv venv
