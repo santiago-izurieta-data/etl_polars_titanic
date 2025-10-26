@@ -71,13 +71,16 @@ Generadas automáticamente al final del pipeline con Seaborn y Matplotlib.
 ```bash
     git clone https://github.com/tu-usuario/etl_polars_titanic.git
     cd etl_polars_titanic
-
+```
 2. Crear entorno virtual (opcional):
+```bash    
     python -m venv venv
     source venv/bin/activate  # En Windows: venv\Scripts\activate
+```
 3. Instalar dependencias:
+```bash
     pip install -r requirements.txt
-
+```
 ## 💻 Uso
 ### En Colab
 
@@ -90,12 +93,16 @@ Generadas automáticamente al final del pipeline con Seaborn y Matplotlib.
     - Visualizaciones finales de tasas de supervivencia.
 
 ### Desde script (opcional)
+```bash
 python src/pipeline.py
+```
 
 ## 🧪 Testing
 
 Aunque el proyecto aún no incluye tests, se puede usar pytest para validar funciones ETL:
+```bash
 pytest tests/
+```
 Esto permite asegurar la calidad y consistencia de los datos si se agregan tests futuros.
 
 ## 📊 Resultados
