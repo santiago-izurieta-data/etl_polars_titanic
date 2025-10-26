@@ -68,16 +68,18 @@ Generadas automáticamente al final del pipeline con Seaborn y Matplotlib.
 ### Pasos
 
 1. Clonar el repositorio:
+```bash
     git clone https://github.com/tu-usuario/etl_polars_titanic.git
     cd etl_polars_titanic
+
 2. Crear entorno virtual (opcional):
     python -m venv venv
     source venv/bin/activate  # En Windows: venv\Scripts\activate
 3. Instalar dependencias:
     pip install -r requirements.txt
 
-💻 Uso
-En Colab
+## 💻 Uso
+### En Colab
 
 1. Abrir notebooks/etl_polars_titanic_dataset.ipynb.
 2. Ejecutar todas las celdas para correr el pipeline completo.
@@ -87,41 +89,41 @@ En Colab
     - Datos agregados en data/gold/
     - Visualizaciones finales de tasas de supervivencia.
 
-Desde script (opcional)
+### Desde script (opcional)
 python src/pipeline.py
 
-🧪 Testing
+## 🧪 Testing
 
 Aunque el proyecto aún no incluye tests, se puede usar pytest para validar funciones ETL:
 pytest tests/
 Esto permite asegurar la calidad y consistencia de los datos si se agregan tests futuros.
 
-📊 Resultados
+## 📊 Resultados
 
 - Limpieza e imputación de datos de edades y tarifas.
 - Tablas agregadas de supervivencia por clase y género.
 - Visualizaciones finales de análisis de supervivencia.
 - Pipeline reproducible en Google Colab.
 
-🔄 Flujo del Pipeline
+## 🔄 Flujo del Pipeline
 
 CSV Titanic → Bronze → Silver → Gold → Visualizaciones
 ↓
 Logging de procesos
 
-📈 Próximas Mejoras
+## 📈 Próximas Mejoras
 
- Agregar tests unitarios con pytest
- Automatizar actualizaciones desde Kaggle
- Dockerización del proyecto
- Exportar resultados a Google Drive o GitHub automáticamente
- Integración con dashboard interactivo
+ - Agregar tests unitarios con pytest
+ - Automatizar actualizaciones desde Kaggle
+ - Dockerización del proyecto
+ - Exportar resultados a Google Drive o GitHub automáticamente
+ - Integración con dashboard interactivo
 
-📝 Licencia
+## 📝 Licencia
 
 Este proyecto está bajo la Licencia MIT - permite usar, modificar y distribuir el código con la obligación de mantener la licencia y créditos al autor.
 
-👤 Autor
+## 👤 Autor
 
 Santiago Izurieta
 
@@ -129,9 +131,9 @@ LinkedIn: https://ec.linkedin.com/in/santiago-izurieta-844324125
 
 Portfolio: https://my-data-engineer-folio.lovable.app/
 
-🙏 Agradecimientos
+## 🙏 Agradecimientos
 
-Comunidad de Python y Polars
-Documentación de Kaggle y Seaborn
-Google Colab para ejecución reproducible
+- Comunidad de Python y Polars
+- Documentación de Kaggle y Seaborn
+- Google Colab para ejecución reproducible
 
