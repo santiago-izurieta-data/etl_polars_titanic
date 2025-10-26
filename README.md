@@ -124,8 +124,8 @@ Este proyecto está bajo la Licencia MIT - permite usar, modificar y distribuir 
 👤 Autor
 Santiago Izurieta
 LinkedIn: https://ec.linkedin.com/in/santiago-izurieta-844324125
-Portfolio: tu-portfolio.lovable.app
-Email: tu.email@example.com
+
+Portfolio: https://my-data-engineer-folio.lovable.app/
 
 🙏 Agradecimientos
 
