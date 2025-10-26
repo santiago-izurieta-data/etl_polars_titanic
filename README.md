@@ -122,6 +122,7 @@ Logging de procesos
 Este proyecto está bajo la Licencia MIT - permite usar, modificar y distribuir el código con la obligación de mantener la licencia y créditos al autor.
 
 👤 Autor
+
 Santiago Izurieta
 LinkedIn: https://ec.linkedin.com/in/santiago-izurieta-844324125
 
